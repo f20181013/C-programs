@@ -1,0 +1,11 @@
+-Wall and -Wextra compiler switches to get code warnings while compiling the code ( gcc -Wall -Wextra filename.c)
+Strings can be reassingned by using pointers only 
+#include<stdio.h>  
+void main ()  
+{  
+    char *p = "hello javatpoint";  
+    printf("Before assigning: %s\n",p);  //hello javatpoint
+    p = "hello";  
+    printf("After assigning: %s\n",p);  //hello
+}  
+
